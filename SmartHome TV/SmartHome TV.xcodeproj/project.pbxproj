@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EBB0C9E21F1516000E79ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB0C9D21F1516000E79ABA /* AppDelegate.swift */; };
+		4EBB0CA021F1516000E79ABA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB0C9F21F1516000E79ABA /* FirstViewController.swift */; };
+		4EBB0CA221F1516000E79ABA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB0CA121F1516000E79ABA /* SecondViewController.swift */; };
+		4EBB0CA521F1516000E79ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB0CA321F1516000E79ABA /* Main.storyboard */; };
+		4EBB0CA721F1516300E79ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB0CA621F1516300E79ABA /* Assets.xcassets */; };
+		4EBB0CB221F1516300E79ABA /* SmartHome_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB0CB121F1516300E79ABA /* SmartHome_TVTests.swift */; };
+		4EBB0CBD21F1516300E79ABA /* SmartHome_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB0CBC21F1516300E79ABA /* SmartHome_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EBB0CAE21F1516300E79ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EBB0C9221F1516000E79ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EBB0C9921F1516000E79ABA;
+			remoteInfo = "SmartHome TV";
+		};
+		4EBB0CB921F1516300E79ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EBB0C9221F1516000E79ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EBB0C9921F1516000E79ABA;
+			remoteInfo = "SmartHome TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EBB0C9A21F1516000E79ABA /* SmartHome TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartHome TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBB0C9D21F1516000E79ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EBB0C9F21F1516000E79ABA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4EBB0CA121F1516000E79ABA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4EBB0CA421F1516000E79ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EBB0CA621F1516300E79ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EBB0CA821F1516300E79ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBB0CAD21F1516300E79ABA /* SmartHome TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartHome TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBB0CB121F1516300E79ABA /* SmartHome_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHome_TVTests.swift; sourceTree = "<group>"; };
+		4EBB0CB321F1516300E79ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBB0CB821F1516300E79ABA /* SmartHome TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartHome TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBB0CBC21F1516300E79ABA /* SmartHome_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHome_TVUITests.swift; sourceTree = "<group>"; };
+		4EBB0CBE21F1516300E79ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EBB0C9721F1516000E79ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CAA21F1516300E79ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CB521F1516300E79ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EBB0C9121F1516000E79ABA = {
+			isa = PBXGroup;
+			children = (
+				4EBB0C9C21F1516000E79ABA /* SmartHome TV */,
+				4EBB0CB021F1516300E79ABA /* SmartHome TVTests */,
+				4EBB0CBB21F1516300E79ABA /* SmartHome TVUITests */,
+				4EBB0C9B21F1516000E79ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EBB0C9B21F1516000E79ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB0C9A21F1516000E79ABA /* SmartHome TV.app */,
+				4EBB0CAD21F1516300E79ABA /* SmartHome TVTests.xctest */,
+				4EBB0CB821F1516300E79ABA /* SmartHome TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EBB0C9C21F1516000E79ABA /* SmartHome TV */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB0C9D21F1516000E79ABA /* AppDelegate.swift */,
+				4EBB0C9F21F1516000E79ABA /* FirstViewController.swift */,
+				4EBB0CA121F1516000E79ABA /* SecondViewController.swift */,
+				4EBB0CA321F1516000E79ABA /* Main.storyboard */,
+				4EBB0CA621F1516300E79ABA /* Assets.xcassets */,
+				4EBB0CA821F1516300E79ABA /* Info.plist */,
+			);
+			path = "SmartHome TV";
+			sourceTree = "<group>";
+		};
+		4EBB0CB021F1516300E79ABA /* SmartHome TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB0CB121F1516300E79ABA /* SmartHome_TVTests.swift */,
+				4EBB0CB321F1516300E79ABA /* Info.plist */,
+			);
+			path = "SmartHome TVTests";
+			sourceTree = "<group>";
+		};
+		4EBB0CBB21F1516300E79ABA /* SmartHome TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB0CBC21F1516300E79ABA /* SmartHome_TVUITests.swift */,
+				4EBB0CBE21F1516300E79ABA /* Info.plist */,
+			);
+			path = "SmartHome TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EBB0C9921F1516000E79ABA /* SmartHome TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBB0CC121F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TV" */;
+			buildPhases = (
+				4EBB0C9621F1516000E79ABA /* Sources */,
+				4EBB0C9721F1516000E79ABA /* Frameworks */,
+				4EBB0C9821F1516000E79ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartHome TV";
+			productName = "SmartHome TV";
+			productReference = 4EBB0C9A21F1516000E79ABA /* SmartHome TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EBB0CAC21F1516300E79ABA /* SmartHome TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBB0CC421F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TVTests" */;
+			buildPhases = (
+				4EBB0CA921F1516300E79ABA /* Sources */,
+				4EBB0CAA21F1516300E79ABA /* Frameworks */,
+				4EBB0CAB21F1516300E79ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EBB0CAF21F1516300E79ABA /* PBXTargetDependency */,
+			);
+			name = "SmartHome TVTests";
+			productName = "SmartHome TVTests";
+			productReference = 4EBB0CAD21F1516300E79ABA /* SmartHome TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EBB0CB721F1516300E79ABA /* SmartHome TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBB0CC721F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TVUITests" */;
+			buildPhases = (
+				4EBB0CB421F1516300E79ABA /* Sources */,
+				4EBB0CB521F1516300E79ABA /* Frameworks */,
+				4EBB0CB621F1516300E79ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EBB0CBA21F1516300E79ABA /* PBXTargetDependency */,
+			);
+			name = "SmartHome TVUITests";
+			productName = "SmartHome TVUITests";
+			productReference = 4EBB0CB821F1516300E79ABA /* SmartHome TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EBB0C9221F1516000E79ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jamone Kelly";
+				TargetAttributes = {
+					4EBB0C9921F1516000E79ABA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4EBB0CAC21F1516300E79ABA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4EBB0C9921F1516000E79ABA;
+					};
+					4EBB0CB721F1516300E79ABA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4EBB0C9921F1516000E79ABA;
+					};
+				};
+			};
+			buildConfigurationList = 4EBB0C9521F1516000E79ABA /* Build configuration list for PBXProject "SmartHome TV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EBB0C9121F1516000E79ABA;
+			productRefGroup = 4EBB0C9B21F1516000E79ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EBB0C9921F1516000E79ABA /* SmartHome TV */,
+				4EBB0CAC21F1516300E79ABA /* SmartHome TVTests */,
+				4EBB0CB721F1516300E79ABA /* SmartHome TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EBB0C9821F1516000E79ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB0CA721F1516300E79ABA /* Assets.xcassets in Resources */,
+				4EBB0CA521F1516000E79ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CAB21F1516300E79ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CB621F1516300E79ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EBB0C9621F1516000E79ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB0CA221F1516000E79ABA /* SecondViewController.swift in Sources */,
+				4EBB0C9E21F1516000E79ABA /* AppDelegate.swift in Sources */,
+				4EBB0CA021F1516000E79ABA /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CA921F1516300E79ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB0CB221F1516300E79ABA /* SmartHome_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBB0CB421F1516300E79ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB0CBD21F1516300E79ABA /* SmartHome_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EBB0CAF21F1516300E79ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EBB0C9921F1516000E79ABA /* SmartHome TV */;
+			targetProxy = 4EBB0CAE21F1516300E79ABA /* PBXContainerItemProxy */;
+		};
+		4EBB0CBA21F1516300E79ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EBB0C9921F1516000E79ABA /* SmartHome TV */;
+			targetProxy = 4EBB0CB921F1516300E79ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EBB0CA321F1516000E79ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EBB0CA421F1516000E79ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EBB0CBF21F1516300E79ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		4EBB0CC021F1516300E79ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EBB0CC221F1516300E79ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.SmartHome-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		4EBB0CC321F1516300E79ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.SmartHome-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		4EBB0CC521F1516300E79ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.smarthome-tv.SmartHome-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHome TV.app/SmartHome TV";
+			};
+			name = Debug;
+		};
+		4EBB0CC621F1516300E79ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.smarthome-tv.SmartHome-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHome TV.app/SmartHome TV";
+			};
+			name = Release;
+		};
+		4EBB0CC821F1516300E79ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.smarthome-tv.SmartHome-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "SmartHome TV";
+			};
+			name = Debug;
+		};
+		4EBB0CC921F1516300E79ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W29D5BE398;
+				INFOPLIST_FILE = "SmartHome TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamonek.smarthome-tv.SmartHome-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "SmartHome TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EBB0C9521F1516000E79ABA /* Build configuration list for PBXProject "SmartHome TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBB0CBF21F1516300E79ABA /* Debug */,
+				4EBB0CC021F1516300E79ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBB0CC121F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBB0CC221F1516300E79ABA /* Debug */,
+				4EBB0CC321F1516300E79ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBB0CC421F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBB0CC521F1516300E79ABA /* Debug */,
+				4EBB0CC621F1516300E79ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBB0CC721F1516300E79ABA /* Build configuration list for PBXNativeTarget "SmartHome TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBB0CC821F1516300E79ABA /* Debug */,
+				4EBB0CC921F1516300E79ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EBB0C9221F1516000E79ABA /* Project object */;
+}
